@@ -25,10 +25,11 @@ docker push ronaldris21/mern-docker-kubernetes:1
 
 ```
 
-
+## download from Docker hub
+```console
 docker pull ronaldris21/mern-docker-kubernetes:latest
-
 docker run -e MONGO_URL=aiusdbnakdasldnaskldn ronaldris21/mern-docker-kubernetes:latest
+```
 
 
 **NOTE:** This is a development configuration where the react app is being served by a separate container. We would also want to create a production version where we build a static version of the react site and serve it with something like nginx.
